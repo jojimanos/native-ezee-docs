@@ -3,6 +3,7 @@
   <head>
     <link id="theme" rel="stylesheet" href="./styles/lightTheme.css" />
   </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <main style="visibility: hidden">
     <div id="header" class="header">
       <div id="title" class="title">
@@ -20,31 +21,34 @@
         <img id="themeIcon" src="./assets/moon.png" class="themeIcon" />
       </button>
     </div>
-    <div id="supercontainer" class="supercontainerDocs">
-      <div class="container">
-        <video src="./assets/videos/Input.mp4" controls></video>
-      </div>
-      <div class="container">
-        <div>
-          The input component can be used along with the form container. There
-          are two styles: solid and outline. The syntax is pretty simple:
+    <div>
+      <div id="supercontainer" class="supercontainerDocs">
+        <div class="container">
+          <video src="./assets/videos/Input.mp4" controls></video>
         </div>
-        <img id="inputImage" class="" src="./assets/input fields docs.jpg" />
+        <div class="container">
+          <div>
+            The input component can be used along with the form container. There
+            are two styles: solid and outline. The syntax is pretty simple:
+          </div>
+          <img id="inputImage" class="" src="./assets/input fields docs.jpg" />
+        </div>
+      </div>
+      <div id="supercontainer" class="supercontainerDocs">
+        <div class="container">
+          <video src="./assets/videos/Checkbox.mp4" controls></video>
+        </div>
+        <div class="container">
+          <div>
+            The check component is something not native in react native. This is
+            our solution to the problem. It comes in three different variations:
+            solid, outline and ghost:
+          </div>
+          <img id="inputImage" class="" src="./assets/checkbox docs.jpg" />
+        </div>
       </div>
     </div>
-    <div id="supercontainer" class="supercontainerDocs">
-      <div class="container">
-        <video src="./assets/videos/Checkbox.mp4" controls></video>
-      </div>
-      <div class="container">
-        <div>
-          The check component is something not native in react native. This is
-          our solution to the problem. It comes in three different variations:
-          solid, outline and ghost:
-        </div>
-        <img id="inputImage" class="" src="./assets/checkbox docs.jpg" />
-      </div>
-    </div>
+
     <script src="./scripts/switchTheme.js"></script>
   </main>
 </html>
